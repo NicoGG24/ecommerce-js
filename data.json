@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Authentic Chino Relaxed 20''",
+        "imagen": "./items/Vans Authentic Chino Relaxed 20'' Short.webp",
+        "precio": 9.99,
+        "id": 1
+    },
+    {
+        "nombre": "Authentic Chino Slim Pant",
+        "imagen": "./items/Vans Authentic Chino Slim Pant.webp",
+        "precio": 14.99,
+        "id": 2
+    },
+    {
+        "nombre": "Authentic",
+        "imagen": "./items/Vans Authentic.webp",
+        "precio": 14.99,
+        "id": 3
+    },
+    {
+        "nombre": "Floral Jewel Box Crew Tee",
+        "imagen": "./items/Vans Floral Jewel Box Crew Tee.webp",
+        "precio": 9.99,
+        "id": 4
+    },
+    {
+        "nombre": "Logo wash Crew Tee",
+        "imagen": "./items/Vans logo wash Crew Tee.webp",
+        "precio": 9.99,
+        "id": 5
+    },
+    {
+        "nombre": "New Encounterz T-Shirt",
+        "imagen": "./items/Vans New Encounterz T-Shirt.webp",
+        "precio": 9.99,
+        "id": 6
+    },
+    {
+        "nombre": "Old Skool",
+        "imagen": "./items/Vans Old Skool.webp",
+        "precio": 14.99,
+        "id": 7
+    },
+    {
+        "nombre": "Skate Authentic",
+        "imagen": "./items/Vans Skate Authentic.webp",
+        "precio": 14.99,
+        "id": 8
+    }
+]

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar -->
+        <div class="nav container">
+            <a href="#" class="logo">ECommerce</a>
+        </div>
+        <div class="header__line">
+            <span>FREE SHIPPING & RETURNS! <strong>DETAILS</strong> </span>
+        </div>
+    </header>
+    <main>
+        <div class="main__div">
+
+            <div class="page__title">
+                <h1>CATALOGO</h1>
+                <h2>RECOMENDADOS</h2>
+            </div>
+
+            <div class="catalog" id="catalog">
+
+
+            </div>
+
+        </div>
+    </main>
+    <img src="./icons/shoppingbag.png" alt="carrito" id="btnCarrito" onclick="toggleCarrito()">
+
+    <aside class="asideWrapper">
+        <div id="asideHeader">
+            <h2><img src="./icons/shoppingbag.png" alt="carrito">CARRITO</h2>
+            <span>Articulos:</span>
+            <div id="articulosCarrito">
+
+
+
+
+
+            </div>
+        </div>
+        <div id="asideMain">
+
+            <span id="subtotal">Subtotal: $</span>
+            <span id="impuestos">Impuestos: $</span>
+            <span id="total">Total: $</span>
+            <button class="btnCerrar" onclick="toggleCarrito()">CERRAR</button>
+        </div>
+
+
+    </aside>
+
+    <footer>
+
+        <div>
+            <div class="">
+                <ul>
+                    <li>Contacto:</li>
+                    <li>Send us an email!</li>
+                    <li>Telefono: xxx-xx-xx</li>
+                </ul>
+            </div>
+            <div class="">
+                <ul>
+                    <li>Contacto:</li>
+                    <li>Send us an email!</li>
+                    <li>Telefono: xxx-xx-xx</li>
+                </ul>
+            </div>
+            <div class="">
+                <ul>
+                    <li>Contacto:</li>
+                    <li>Send us an email!</li>
+                    <li>Telefono: xxx-xx-xx</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./render.js"></script>
+</body>
+
+</html>
